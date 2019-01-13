@@ -1,0 +1,22 @@
+{
+  "name": "motivate",
+  "version": "1.0.0",
+  "description": "get you through the day",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirHauteclaire/motivate.git"
+  },
+  "author": "Hunter Nakagawa <hunternakagawa@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirHauteclaire/motivate/issues"
+  },
+  "homepage": "https://github.com/SirHauteclaire/motivate#readme",
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}
