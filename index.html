@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- source: https://github.com/SirHauteclaire/motivate -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hey, you</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script type="text/javascript">
+      function newx() {
+        var x = ["😘💕","You're looking 🔥","Hey there, sweet thang.", "😍","You can do it!","You got this.","Go do it.","<i>A_F*CKING_GOD joined the game.</i>","Sup, fineapple 🍍","Almost there!","No balls, you won't.","Just one more.","😄","It's a new day.","Thanks for explaining the word \"many\" to me, it means a lot.","I like you.","<3","*hugs*"];
+        var n = Math.floor((Math.random() * x.length));
+        v = x[n];
+        document.getElementById("v").innerHTML = v;
+      }
+    	window.onload = function() {
+        newx();
+      };
+		</script>
+  </head>
+  <body>
+    <a ref="#" onclick="newx(); return false;">
+      <section class="hero is-fullheight">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              <span id="v"></span>
+            </h1>
+          </div>
+        </div>
+      </section>
+    </a>
+  </body>
+</html>
