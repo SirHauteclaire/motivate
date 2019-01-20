@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <script type="text/javascript">
       function newx() {
-        var x = ["😘💕","You're looking 🔥","Hey there, sweet thang.", "😍","You can do it!","You got this.","Go do it.","<i>You're a champ.</i>","Sup, fineapple 🍍","Almost there!","No balls, you won't.","Just one more.","😄","It's a new day.","Thanks for explaining the word \"many\" to me, it means a lot.","I like you.","<3","*hugs*","It's okay, you can do it!","Don't worry, be happy.","Life never gets easier. Suck it up like the rest of us.","When in doubt,"];
+        var x = ["😘💕","You're looking 🔥","Hey there, sweet thang.", "😍","You can do it!","You got this.","Go do it.","<i>You're a champ.</i>","Sup, fineapple 🍍","Almost there!","No balls, you won't.","Just one more.","😄","It's a new day.","Thanks for explaining the word \"many\" to me, it means a lot.","I like you.","<3","*hugs*","It's okay, you can do it!","Don't worry, be happy.","Life never gets easier. Suck it up like the rest of us.","When in doubt, flee!"];
         var n = Math.floor((Math.random() * x.length));
         v = x[n];
         document.getElementById("v").innerHTML = v;
@@ -17,13 +17,22 @@
         newx();
       };
 		</script>
+    <style>
+    .nohl {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+    }
+    </style>
   </head>
   <body>
     <a ref="#" onclick="newx(); return false;">
       <section class="hero is-fullheight">
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title">
+            <h1 class="title nohl">
               <span id="v"></span>
             </h1>
           </div>
